@@ -2,15 +2,14 @@
 
 ## Visão Geral
 
-O projeto **Aircraft Data** é uma calculadora de desempenho de aeronaves desenvolvida em **GNU Octave**. Ele simula funcionalidades encontradas em sistemas de gerenciamento de voo (FMS) e softwares de planejamento de desempenho, auxiliando na análise e segurança das operações de decolagem e pouso.
+O projeto **Aircraft Data** é uma calculadora de desempenho de aeronaves desenvolvida em **GNU Octave**. Ele simula funcionalidades encontradas em sistemas de gerenciamento de voo (FMS) e softwares de planejamento de desempenho para auxiliar na análise e segurança das operações de decolagem e pouso.
 
-Este projeto visa ser uma ferramenta didática robusta para explorar conceitos de massa e equilíbrio, aerodinâmica de desempenho e otimização em cenários aviônicos.
+Este projeto visa ser uma ferramenta didática robusta para explorar conceitos de massa e equilíbrio, aerodinâmica de desempenho, e otimização em cenários aviônicos.
 
 ## Autor / Desenvolvido por
 
 * **Ricardo Azevedo** - Engenheiro de Software
     * Local: Palmas, Tocantins
-    * Registro CREA: 2421661374/TOCANTINS
 
 ### Perfil Profissional
 
@@ -31,7 +30,7 @@ Profissional com formação em Engenharia de Software, especialização em Telec
     * Cálculo de Distâncias Requeridas (TODR Normal, ASDR, TODR OEI).
     * Cálculo de Velocidades Críticas (Vr, V1).
     * Verificação de **Obstáculos** na trajetória de subida com motor inoperante.
-    * **Otimização de Peso:** Determina o peso máximo de decolagem para uma pista e configuração de flap dados.
+    * **Otimização de Peso:** Determina o peso máximo de decolagem para uma pista e configuração de flap dadas.
     * **Otimização de Peso e Flap:** Encontra o peso máximo absoluto e a melhor configuração de flap.
 * **Desempenho de Pouso:** Cálculo de Distância de Pouso Requerida (LDR) e Velocidade de Aproximação (Vapp).
 * **Análise de Pista:** Sugere a pista mais favorável com base no vento e fornece detalhes de todas as pistas do aeroporto.
@@ -50,10 +49,6 @@ Aircraft Data/
 ├── aeroportos_db.mat
 └── main_aircraft_data.m
 
-
-*(Observação: Outros arquivos como `simular_malha_fechada_PI.m`, `simular_sensor_altitude.m`, `main.m`, `main_wb.m`, `main_decolagem.m` são de projetos anteriores ou testes intermediários e não são essenciais para o funcionamento final deste projeto. Podem ser movidos ou ignorados.)*
-
-## Configurando e executando
 
 ### Pré-requisitos
 
